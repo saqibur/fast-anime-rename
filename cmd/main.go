@@ -38,7 +38,7 @@ func main() {
 	} else {
 		fmt.Println("Aborted.")
 		fmt.Println("Closing.")
-		duration := time.Duration(5) * time.Second
+		duration := time.Duration(2) * time.Second
 		time.Sleep(duration)
 	}
 }
